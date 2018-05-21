@@ -1,3 +1,6 @@
 [submodule "cultura-ocio-agenda-eventos-actividades"]
 	path = cultura-ocio-agenda-eventos-actividades
 	url = https://github.com/opencitydata/cultura-ocio-agenda-eventos-actividades.git
+[submodule "cultura-ocio-lugares-interes"]
+	path = cultura-ocio-lugares-interes
+	url = https://github.com/opencitydata/cultura-ocio-lugares-interes.git
