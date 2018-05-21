@@ -4,3 +4,6 @@
 [submodule "cultura-ocio-lugares-interes"]
 	path = cultura-ocio-lugares-interes
 	url = https://github.com/opencitydata/cultura-ocio-lugares-interes.git
+[submodule "hacienda-presupuesto"]
+	path = hacienda-presupuesto
+	url = https://github.com/opencitydata/hacienda-presupuesto.git
