@@ -7,3 +7,6 @@
 [submodule "hacienda-presupuesto"]
 	path = hacienda-presupuesto
 	url = https://github.com/opencitydata/hacienda-presupuesto.git
+[submodule "sector-publico-subvenciones-ayudas"]
+	path = sector-publico-subvenciones-ayudas
+	url = https://github.com/opencitydata/sector-publico-subvenciones-ayudas.git
