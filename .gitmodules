@@ -13,3 +13,6 @@
 [submodule "sector-publico-territorio"]
 	path = sector-publico-territorio
 	url = https://github.com/opencitydata/sector-publico-territorio.git
+[submodule "transporte-trafico-tiempo-real"]
+	path = transporte-trafico-tiempo-real
+	url = https://github.com/opencitydata/transporte-trafico-tiempo-real.git
