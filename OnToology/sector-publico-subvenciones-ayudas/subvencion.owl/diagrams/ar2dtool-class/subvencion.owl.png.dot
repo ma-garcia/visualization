@@ -1,0 +1,18 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Subvencion" ; /*classes style*/
+	"http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion" -> "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion-content/index.html" [ label = "dcterms:hasFormat" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion" -> "base:" [ label = "vann:preferredNamespaceUri" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion" -> "http://creativecommons.org/licenses/by/4.0/" [ label = "cc:license" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion" -> "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion-content/subvencion.owl" [ label = "dcterms:hasFormat" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion" -> "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion/0.1" [ label = "owl:versionIRI" ];
+	"base:Subvencion" -> "owl:Thing" [ label = "base:entidadFinanciadora" ];
+	"base:Subvencion" -> "owl:Thing" [ label = "base:adjudicatario" ];
+	"base:Subvencion" -> "owl:Thing" [ label = "base:area" ];
+	"base:Subvencion" -> "owl:Thing" [ label = "base:servicio" ];
+	"base:Subvencion" -> "xsd:date" [ label = "base:fechaAdjudicacion" ];
+	"base:Subvencion" -> "xsd:string" [ label = "base:lineaFinanciacion" ];
+	"base:Subvencion" -> "xsd:float" [ label = "base:importe" ];
+
+}

@@ -1,0 +1,143 @@
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion/0.1> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Polit\u00E9cnica de Madrid, LocaliData)" .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://purl.org/dc/elements/1.1/date> "2015-03-20"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://purl.org/dc/elements/1.1/identifier> "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuestos" .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)" .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representaci\u00F3n de datos sobre subvenciones concedidas por un municipio"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion-content/index.html> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion-content/subvencion.owl> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://purl.org/dc/terms/issued> "2015-03-20"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://www.w3.org/2000/01/rdf-schema#comment> "Este vocabulario se utiliza para la descripci\u00F3n de datos relacionados con subvenciones concedidas por un municipio. Esta ontolog\u00EDa podr\u00E1 sufrir cambios hasta que se consiga un acuerdo suficiente sobre los t\u00E9rminos que se incluyen en ella. "@es .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> <http://www.w3.org/2002/07/owl#versionInfo> "Esta es la primera versi\u00F3n del vocabulario, basada en la informaci\u00F3n de subvenciones publicada por el Ayuntamiento de Zaragoza en su API"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#comment
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#adjudicatario
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#adjudicatario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#adjudicatario> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#adjudicatario> <http://purl.org/dc/terms/issued> "2015-03-20"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#adjudicatario> <http://www.w3.org/2000/01/rdf-schema#comment> "Propiedad que identifica al adjudicatario de una subvenci\u00F3n. No se especifica su rango, pues puede ser una persona o una organizaci\u00F3n. Es posible que en el futuro se especifique un rango espec\u00EDfico (por ejemplo, org:Organization de la W3C Organization Ontology)."@es .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#adjudicatario> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#adjudicatario> <http://www.w3.org/2000/01/rdf-schema#label> "adjudicatario"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#area
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#area> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#area> <http://purl.org/dc/terms/issued> "2015-03-20"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#area> <http://www.w3.org/2000/01/rdf-schema#comment> "\u00C1rea del ayuntamiento que concede la subvenci\u00F3n"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#area> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#area> <http://www.w3.org/2000/01/rdf-schema#label> "\u00E1rea"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#entidadFinanciadora
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#entidadFinanciadora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#entidadFinanciadora> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#entidadFinanciadora> <http://purl.org/dc/terms/issued> "2015-03-20"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#entidadFinanciadora> <http://www.w3.org/2000/01/rdf-schema#comment> "Entidad que financia la subvenci\u00F3n"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#entidadFinanciadora> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#entidadFinanciadora> <http://www.w3.org/2000/01/rdf-schema#label> "entidad financiadora"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#servicio
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#servicio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#servicio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#servicio> <http://purl.org/dc/terms/issued> "2015-03-20"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#servicio> <http://www.w3.org/2000/01/rdf-schema#comment> "Servicio del ayuntamiento que ofrece la subvenci\u00F3n"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#servicio> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#servicio> <http://www.w3.org/2000/01/rdf-schema#label> "servicio"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#fechaAdjudicacion
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#fechaAdjudicacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#fechaAdjudicacion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#fechaAdjudicacion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#fechaAdjudicacion> <http://purl.org/dc/terms/issued> "2015-03-20"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#fechaAdjudicacion> <http://www.w3.org/2000/01/rdf-schema#comment> "Fecha en la que se ha adjudicado la subvenci\u00F3n"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#fechaAdjudicacion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#fechaAdjudicacion> <http://www.w3.org/2000/01/rdf-schema#label> "fecha de adjudicaci\u00F3n"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#importe
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#importe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#importe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#importe> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#importe> <http://purl.org/dc/terms/issued> "2015-03-20"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#importe> <http://www.w3.org/2000/01/rdf-schema#comment> "Importe de la subvenci\u00F3n concedida"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#importe> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#importe> <http://www.w3.org/2000/01/rdf-schema#label> "importe"@es .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaFinanciacion
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaFinanciacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaFinanciacion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaFinanciacion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaFinanciacion> <http://purl.org/dc/terms/issued> "2015-03-20"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaFinanciacion> <http://www.w3.org/2000/01/rdf-schema#comment> "L\u00EDnea de financiaci\u00F3n de la subvenci\u00F3n"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaFinanciacion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaFinanciacion> <http://www.w3.org/2000/01/rdf-schema#label> "l\u00EDnea de financiaci\u00F3n"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion> <http://purl.org/dc/terms/issued> "2015-03-20" .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta clase representa el concepto principal de esta ontolog\u00EDa, que es el de la subvenci\u00F3n que concede un municipio a alguna organizaci\u00F3n"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion> .
+<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion> <http://www.w3.org/2000/01/rdf-schema#label> "Subvenci\u00F3n"@es .
+# 
+_:genid1 <http://www.w3.org/2000/01/rdf-schema#label> "HTML" .
+_:genid2 <http://www.w3.org/2000/01/rdf-schema#label> "RDF" .
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
