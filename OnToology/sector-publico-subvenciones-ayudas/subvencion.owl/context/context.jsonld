@@ -1,0 +1,74 @@
+{
+  "@context" : {
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "entidadFinanciadora" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#entidadFinanciadora",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://creativecommons.org/ns#license"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "servicio" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#servicio",
+      "@type" : "@id"
+    },
+    "area" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#area",
+      "@type" : "@id"
+    },
+    "adjudicatario" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#adjudicatario",
+      "@type" : "@id"
+    },
+    "Subvencion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "lineaFinanciacion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaFinanciacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/elements/1.1/rights"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "fechaAdjudicacion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#fechaAdjudicacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "importe" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#importe",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "hasFormat" : {
+      "@id" : "http://purl.org/dc/terms/hasFormat"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    }
+  }
+}
