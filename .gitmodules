@@ -19,3 +19,6 @@
 [submodule "turismo-alojamiento"]
 	path = turismo-alojamiento
 	url = https://github.com/opencitydata/turismo-alojamiento.git
+[submodule "urbanismo-infraestructuras-callejero"]
+	path = urbanismo-infraestructuras-callejero
+	url = https://github.com/opencitydata/urbanismo-infraestructuras-callejero.git
