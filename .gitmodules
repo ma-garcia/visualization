@@ -16,3 +16,6 @@
 [submodule "transporte-trafico-tiempo-real"]
 	path = transporte-trafico-tiempo-real
 	url = https://github.com/opencitydata/transporte-trafico-tiempo-real.git
+[submodule "turismo-alojamiento"]
+	path = turismo-alojamiento
+	url = https://github.com/opencitydata/turismo-alojamiento.git
