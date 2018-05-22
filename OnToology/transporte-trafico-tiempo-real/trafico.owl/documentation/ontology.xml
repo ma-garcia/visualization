@@ -16,6 +16,9 @@
         <ns:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-06-21</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vocabulario para la representación de datos sobre tráfico. 
+Este vocabulario ha sido desarrollado en el contexto del grupo de trabajo sobre Transporte de AENOR. El estado del vocabulario es todavía muy inicial y sufrirá cambios.
+Reutiliza términos de un vocabulario que se encuentra en proceso de estandarización y que permite representar información sobre datos obtenidos a partir de redes de sensores: la W3C Semantic Sensor Network Ontology</dc:description>
         <dc:identifier xml:lang="es">http://vocab.linkeddata.es/datosabiertos/def/transporte/trafico</dc:identifier>
         <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <dc:title xml:lang="es">Vocabulario para la representación de datos sobre tráfico</dc:title>

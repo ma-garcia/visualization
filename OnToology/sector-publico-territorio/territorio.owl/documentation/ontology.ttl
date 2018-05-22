@@ -16,6 +16,13 @@
                                                                                                                     "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)"^^xsd:string ,
                                                                                                                     "Paola Espinoza (Ontology Engineering Group, Universidad Politécnica de Madrid)"^^xsd:string ;
                                                                           <http://purl.org/dc/elements/1.1/date> "2018-01-08"^^xsd:dateTime ;
+                                                                          <http://purl.org/dc/elements/1.1/description> """Este vocabulario se utiliza para la descripción de territorios en España (incluyendo divisiones administrativas y también otros conceptos que se utilizan normalmente pero no tienen entidad jurídica, como por ejemplo barrios). Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
+- schema.org
+- GeoSPARQL
+- GeoNames
+- DBpedia
+- Ontología Jurídica Libre
+- Modelo de direcciones de la Administración General del Estado v.2"""^^xsd:string ;
                                                                           <http://purl.org/dc/elements/1.1/identifier> "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio"^^xsd:string ;
                                                                           <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)"^^xsd:string ;
                                                                           <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos de territorio (incluyendo divisiones administrativas) en España"@es ;
