@@ -17,6 +17,12 @@
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Víctor Morlán (Ayuntamiento de Zaragoza)</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-09-15</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vocabulario para la representación de datos sobre alojamientos en España
+Este vocabulario ha sido desarrollado en el contexto del grupo sobre Turismo, Cultura y Ocio, y Comercio de AENOR. El estado del vocabulario es todavía muy inicial y sufrirá cambios
+Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
+- schema.org
+- geoNames
+- cruzar</dc:description>
         <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">http://vocab.linkeddata.es/datosabiertos/def/turismo/alojamiento</dc:identifier>
         <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <dc:title xml:lang="es">Vocabulario para la representación de datos sobre alojamiento</dc:title>

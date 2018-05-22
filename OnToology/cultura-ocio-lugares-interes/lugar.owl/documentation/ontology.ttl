@@ -16,6 +16,11 @@
                                                                                                         "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)"^^xsd:string ,
                                                                                                         "Sonia Castro (red.es)"^^xsd:string ;
                                                               <http://purl.org/dc/elements/1.1/date> "2014-06-25"^^xsd:dateTime ;
+                                                              <http://purl.org/dc/elements/1.1/description> """Vocabulario para la representación de datos de lugares de interés turístico, viajes, rutas, etc., en España
+Este vocabulario ha sido desarrollado en el contexto del grupo sobre Turismo, Cultura y Ocio, y Comercio de AENOR. El estado del vocabulario es todavía muy inicial y sufrirá cambios
+Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
+- schema.org
+- geoNames"""^^xsd:string ;
                                                               <http://purl.org/dc/elements/1.1/identifier> "http://vocab.linkeddata.es/datosabiertos/def/turismo/lugar"^^xsd:string ;
                                                               <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)"^^xsd:string ;
                                                               <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre lugares de interés turístico, rutas, viajes, etc."@es ;

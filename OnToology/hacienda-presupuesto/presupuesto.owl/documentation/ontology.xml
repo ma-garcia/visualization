@@ -20,6 +20,7 @@
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">María Jesús Fernández (Ayuntamiento de Zaragoza)</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-31</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Este vocabulario se utiliza para la descripción de datos relacionados con los presupuestos de las entidades locales en España, incluyendo gastos e ingresos. Reutiliza términos del vocabulario sobre unidades territoriales que forma parte de este conjunto de ontologías para datos abiertos, y hace referencia a varios esquemas de conceptos SKOS que se basan en las categorías de gastos e ingresos que se definen en la ORDEN EHA/3565/2008, de 3 de diciembre, sobre la estructura de los presupuestos de las entidades locales, y que también se encuentra descrito en la Web http://www.rendiciondecuentas.es/.</dc:description>
         <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto</dc:identifier>
         <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <dc:title xml:lang="es">Vocabulario para la representación de datos sobre presupuestos de entidades locales (incluyendo gastos e ingresos)</dc:title>

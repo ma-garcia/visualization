@@ -12,6 +12,9 @@
                                                                    <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> ;
                                                                    <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)"^^xsd:string ;
                                                                    <http://purl.org/dc/elements/1.1/date> "2015-06-21"^^xsd:dateTime ;
+                                                                   <http://purl.org/dc/elements/1.1/description> """Vocabulario para la representación de datos sobre tráfico. 
+Este vocabulario ha sido desarrollado en el contexto del grupo de trabajo sobre Transporte de AENOR. El estado del vocabulario es todavía muy inicial y sufrirá cambios.
+Reutiliza términos de un vocabulario que se encuentra en proceso de estandarización y que permite representar información sobre datos obtenidos a partir de redes de sensores: la W3C Semantic Sensor Network Ontology"""^^xsd:string ;
                                                                    <http://purl.org/dc/elements/1.1/identifier> "http://vocab.linkeddata.es/datosabiertos/def/transporte/trafico"@es ;
                                                                    <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)"^^xsd:string ;
                                                                    <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre tráfico"@es ;

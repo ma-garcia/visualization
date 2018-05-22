@@ -19,6 +19,11 @@
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Corcho (Ontology Engineering Group, Universidad Politécnica de Madrid)</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Víctor Morlán (Ayuntamiento de Zaragoza)</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-28</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Este vocabulario se utiliza para la descripción del callejero de una ciudad. Reutiliza términos de varios vocabularios que actualmente se utilizan para propósitos similares, incluyendo:
+- schema.org
+- GeoSPARQL
+- GeoNames
+- Unidades territoriales en España</dc:description>
         <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero</dc:identifier>
         <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <dc:title xml:lang="es">Vocabulario para la representación de datos de un callejero</dc:title>
