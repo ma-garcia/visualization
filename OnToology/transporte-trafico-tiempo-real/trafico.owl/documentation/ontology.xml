@@ -128,48 +128,6 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
     
 
 
-    <!-- http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest -->
-
-
-    <owl:Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest"/>
-    
-
-
-    <!-- http://purl.oclc.org/NET/ssnx/ssn#Observation -->
-
-
-    <owl:Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#Observation"/>
-    
-
-
-    <!-- http://purl.oclc.org/NET/ssnx/ssn#ObservationValue -->
-
-
-    <owl:Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#ObservationValue"/>
-    
-
-
-    <!-- http://purl.oclc.org/NET/ssnx/ssn#Property -->
-
-
-    <owl:Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#Property"/>
-    
-
-
-    <!-- http://purl.oclc.org/NET/ssnx/ssn#Sensor -->
-
-
-    <owl:Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#Sensor"/>
-    
-
-
-    <!-- http://purl.oclc.org/NET/ssnx/ssn#SensorOutput -->
-
-
-    <owl:Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#SensorOutput"/>
-    
-
-
     <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/trafico#TrafficIntensityObservation -->
 
 

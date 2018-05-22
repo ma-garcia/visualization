@@ -5,18 +5,23 @@
  <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />   
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio","name":"Vocabulario para la representación de datos de territorio (incluyendo divisiones administrativas) en España", "headline":"Document describing the ontology http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio", "datePublished":"Mon May 21 08:53:27 UTC 2018", "version":"En esta ontología se han añadido los siguientes conceptos:
-- ComunidadJurisdiccional
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio","name":"Vocabulario para la representación de datos de territorio (incluyendo divisiones administrativas) en España", "headline":"Document describing the ontology http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio", "datePublished":"Thu Dec 21 19:36:20 UTC 2017", "version":"En esta ontología se han añadido los siguientes conceptos:
+<!-- - PartidoJudicial
+- Isla, y la referencia a su superclase dbpedia-owl:Island
+- Mancomunidad
+- AreaMetropolitana
 
-También se han renombrado las siguientes propiedades:
-- codigoMunicipioINE se ha renombrado a codigoINE
-- codigoMunicipioCatastro se ha renombrado a codigoCatastro
+También se han añadido las siguientes propiedades:
+- cabezaDePartidoJudicial
+- capital
+- isla
+- mancomunidad
+- areaMetropolitana
 
-Se ha añadido la siguiente propiedad:
-- esCapitalDe
+Asimismo, se han completado omisiones existentes en la versión anterior:
+- Algunos rangos para object properties como diseminado, provincia, etc.
 
-Y se ha incluido como aplicable la propiedad geonames:population para cualquier unidad territorial
-", "author":[{"@type":"Person","name":"David Portolés (Idearium Consultores)"},{"@type":"Person","name":"Esther Minguela (LocaliData)"},{"@type":"Person","name":"José María Subero (Gobierno de Aragón)"},{"@type":"Person","name":"María Jesús Fernández (Ayuntamiento de Zaragoza)"},{"@type":"Person","name":"Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)"},{"@type":"Person","name":"Paola Espinoza (Ontology Engineering Group, Universidad Politécnica de Madrid)"}]}</script>
+Y se han añadido a la documentación asociada a las juntas administrativas algunos ejemplos, como la existencia de juntas municipales y juntas vecinales ", "author":[{"@type":"Person","name":"David Portolés (Idearium Consultores)"},{"@type":"Person","name":"Esther Minguela (LocaliData)"},{"@type":"Person","name":"José María Subero (Gobierno de Aragón)"},{"@type":"Person","name":"María Jesús Fernández (Ayuntamiento de Zaragoza)"},{"@type":"Person","name":"Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)"}]} --> </script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -70,22 +75,10 @@ function loadTOC(){
 <h1>Vocabulario para la representación de datos de territorio (incluyendo divisiones administrativas) en España</h1>
 <dl>
 <dt>This version:</dt>
-<dd><a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio_v0.5">http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio_v0.5</a></dd>
-</dl><dt>Revision:</dt>
-<dd>En esta ontología se han añadido los siguientes conceptos:
-- ComunidadJurisdiccional
+<dd><a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio_v0.5.html">http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio/0.5</a></dd>
 
-También se han renombrado las siguientes propiedades:
-- codigoMunicipioINE se ha renombrado a codigoINE
-- codigoMunicipioCatastro se ha renombrado a codigoCatastro
-
-Se ha añadido la siguiente propiedad:
-- esCapitalDe
-
-Y se ha incluido como aplicable la propiedad geonames:population para cualquier unidad territorial
-</dd>
 <dl><dt>Authors:</dt>
-<dd>David Portolés (Idearium Consultores)</dd><dd>Esther Minguela (LocaliData)</dd><dd>José María Subero (Gobierno de Aragón)</dd><dd>María Jesús Fernández (Ayuntamiento de Zaragoza)</dd><dd>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dd><dd>Paola Espinoza (Ontology Engineering Group, Universidad Politécnica de Madrid)</dd></dl>
+<dd>David Portolés (Idearium Consultores)</dd><dd>Esther Minguela (LocaliData)</dd><dd>José María Subero (Gobierno de Aragón)</dd><dd>María Jesús Fernández (Ayuntamiento de Zaragoza)</dd><dd>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dd></dl>
 
 <dl><dt>Download serialization:</dt><dd><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML"></img></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples"></img></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL"></img></a> </span></dd></dl><dl><dt>License: </dt><dd><a href="http://insertlicenseURIhere.org" target="_blank"><img src ="https://img.shields.io/badge/License-Creative Commons Attribution 4.0 International (CC BY 4.0)-blue.svg" alt="http://insertlicenseURIhere.org"></img></a>
 </dd></dl><dl><a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a></dl><hr/>

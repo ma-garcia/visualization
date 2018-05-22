@@ -72,24 +72,6 @@
 # #################################################################
 # 
 # 
-# http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest
-<http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
-# http://purl.oclc.org/NET/ssnx/ssn#Observation
-<http://purl.oclc.org/NET/ssnx/ssn#Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
-# http://purl.oclc.org/NET/ssnx/ssn#ObservationValue
-<http://purl.oclc.org/NET/ssnx/ssn#ObservationValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
-# http://purl.oclc.org/NET/ssnx/ssn#Property
-<http://purl.oclc.org/NET/ssnx/ssn#Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
-# http://purl.oclc.org/NET/ssnx/ssn#Sensor
-<http://purl.oclc.org/NET/ssnx/ssn#Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
-# http://purl.oclc.org/NET/ssnx/ssn#SensorOutput
-<http://purl.oclc.org/NET/ssnx/ssn#SensorOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
 # http://vocab.linkeddata.es/datosabiertos/def/transporte/trafico#TrafficIntensityObservation
 <http://vocab.linkeddata.es/datosabiertos/def/transporte/trafico#TrafficIntensityObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.linkeddata.es/datosabiertos/def/transporte/trafico#TrafficIntensityObservation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/transporte/trafico#TrafficObservation> .

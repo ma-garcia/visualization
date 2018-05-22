@@ -70,30 +70,6 @@ xsd:date rdf:type rdfs:Datatype .
 #    Classes
 #################################################################
 
-###  http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest
-<http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest> rdf:type owl:Class .
-
-
-###  http://purl.oclc.org/NET/ssnx/ssn#Observation
-<http://purl.oclc.org/NET/ssnx/ssn#Observation> rdf:type owl:Class .
-
-
-###  http://purl.oclc.org/NET/ssnx/ssn#ObservationValue
-<http://purl.oclc.org/NET/ssnx/ssn#ObservationValue> rdf:type owl:Class .
-
-
-###  http://purl.oclc.org/NET/ssnx/ssn#Property
-<http://purl.oclc.org/NET/ssnx/ssn#Property> rdf:type owl:Class .
-
-
-###  http://purl.oclc.org/NET/ssnx/ssn#Sensor
-<http://purl.oclc.org/NET/ssnx/ssn#Sensor> rdf:type owl:Class .
-
-
-###  http://purl.oclc.org/NET/ssnx/ssn#SensorOutput
-<http://purl.oclc.org/NET/ssnx/ssn#SensorOutput> rdf:type owl:Class .
-
-
 ###  http://vocab.linkeddata.es/datosabiertos/def/transporte/trafico#TrafficIntensityObservation
 :TrafficIntensityObservation rdf:type owl:Class ;
                              rdfs:subClassOf :TrafficObservation ;
