@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "1d50032a:16386deb8bd:-7ffc" "geonames:Feature" "schema:TouristAttraction" "skos:Concept" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "geonames:Feature" "schema:TouristAttraction" "150de20c:1638ca7ecbe:-7ffc" "skos:Concept" ; /*classes style*/
 	"http://vocab.linkeddata.es/datosabiertos/def/turismo/lugar" -> "http://creativecommons.org/licenses/by/4.0/" [ label = "cc:license" ];
 	"http://vocab.linkeddata.es/datosabiertos/def/turismo/lugar" -> "http://vocab.linkeddata.es/datosabiertos/def/turismo/lugar-content/0.1/index.html" [ label = "dcterms:hasFormat" ];
 	"http://vocab.linkeddata.es/datosabiertos/def/turismo/lugar" -> "estur:" [ label = "vann:preferredNamespaceUri" ];
@@ -11,17 +11,17 @@ node [shape = rectangle, color="orange"]; "1d50032a:16386deb8bd:-7ffc" "geonames
 	"NULL" -> "geonames:featureCode" [ label = "owl:onProperty" ];
 	"NULL" -> "kosTurismo:tipoEdificioHistorico" [ label = "owl:hasValue" ];
 	"NULL" -> "geonames:S.MNMT" [ label = "owl:hasValue" ];
-	"NULL" -> "1d50032a:16386deb8bd:-7ff9" [ label = "rdf:rest" ];
+	"NULL" -> "150de20c:1638ca7ecbe:-7ff9" [ label = "rdf:rest" ];
+	"NULL" -> "150de20c:1638ca7ecbe:-7ffb" [ label = "owl:intersectionOf" ];
 	"NULL" -> "skos:Concept" [ label = "rdf:first" ];
 	"NULL" -> "geonames:S.BLDG" [ label = "owl:hasValue" ];
 	"NULL" -> "geonames:S" [ label = "owl:hasValue" ];
 	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
-	"NULL" -> "1d50032a:16386deb8bd:-7ffb" [ label = "owl:intersectionOf" ];
 	"NULL" -> "geonames:featureClass" [ label = "owl:onProperty" ];
 	"NULL" -> "skos:inScheme" [ label = "owl:onProperty" ];
 	"geonames:featureCode" -> "dcterms:type" [ label = "rdfs:subPropertyOf" ];
 	"schema:TouristAttraction" -> "owl:Thing" [ label = "estur:medioTransporte" ];
-	"owl:Thing" -> "1d50032a:16386deb8bd:-7ffc" [ label = "estur:tipoEdificioHistorico" ];
+	"owl:Thing" -> "150de20c:1638ca7ecbe:-7ffc" [ label = "estur:tipoEdificioHistorico" ];
 	"owl:Thing" -> "skos:Concept" [ label = "estur:tipoInstitucion" ];
 	"schema:TouristAttraction" -> "xsd:integer" [ label = "estur:siglo" ];
 	"schema:TouristAttraction" -> "geonames:Feature" [ label = "estur:areaInfluencia" ];

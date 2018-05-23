@@ -22,10 +22,10 @@ node [shape = rectangle, color="orange"]; "skos:Concept" "geonames:Feature" "esc
 	"escjr:tramoVia" -> "geosparql:sfWithin" [ label = "rdfs:subPropertyOf" ];
 	"escjr:via" -> "geosparql:sfWithin" [ label = "rdfs:subPropertyOf" ];
 	"escjr:contieneTramoVia" -> "geosparql:sfContains" [ label = "rdfs:subPropertyOf" ];
-	"NULL" -> "geonames:R" [ label = "owl:hasValue" ];
-	"NULL" -> "geonames:featureClass" [ label = "owl:onProperty" ];
 	"NULL" -> "geonames:R.ST" [ label = "owl:hasValue" ];
 	"NULL" -> "geonames:featureCode" [ label = "owl:onProperty" ];
+	"NULL" -> "geonames:R" [ label = "owl:hasValue" ];
+	"NULL" -> "geonames:featureClass" [ label = "owl:onProperty" ];
 	"escjr:TramoVia" -> "xsd:string" [ label = "escjr:numeroFinTramo" ];
 	"owl:Thing" -> "escjr:TramoVia" [ label = "escjr:contieneTramoVia" ];
 	"escjr:TramoVia" -> "xsd:string" [ label = "escjr:numeroInicioTramo" ];
