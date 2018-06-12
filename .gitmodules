@@ -1,24 +1,24 @@
 [submodule "cultura-ocio-agenda-eventos-actividades"]
 	path = cultura-ocio-agenda-eventos-actividades
-	url = https://github.com/ma-garcia/cultura-ocio-agenda-eventos-actividades.git
+	url = https://github.com/opencitydata/cultura-ocio-agenda-eventos-actividades.git
 [submodule "cultura-ocio-lugares-interes"]
 	path = cultura-ocio-lugares-interes
-	url = https://github.com/ma-garcia/cultura-ocio-lugares-interes.git
+	url = https://github.com/opencitydata/cultura-ocio-lugares-interes.git
 [submodule "hacienda-presupuesto"]
 	path = hacienda-presupuesto
-	url = https://github.com/ma-garcia/hacienda-presupuesto.git
+	url = https://github.com/opencitydata/hacienda-presupuesto.git
 [submodule "sector-publico-subvenciones-ayudas"]
 	path = sector-publico-subvenciones-ayudas
-	url = https://github.com/ma-garcia/sector-publico-subvenciones-ayudas.git
+	url = https://github.com/opencitydata/sector-publico-subvenciones-ayudas.git
 [submodule "sector-publico-territorio"]
 	path = sector-publico-territorio
-	url = https://github.com/ma-garcia/sector-publico-territorio.git
+	url = https://github.com/opencitydata/sector-publico-territorio.git
 [submodule "transporte-trafico-tiempo-real"]
 	path = transporte-trafico-tiempo-real
-	url = https://github.com/ma-garcia/transporte-trafico-tiempo-real.git
+	url = https://github.com/opencitydata/transporte-trafico-tiempo-real.git
 [submodule "turismo-alojamiento"]
 	path = turismo-alojamiento
-	url = https://github.com/ma-garcia/turismo-alojamiento.git
+	url = https://github.com/opencitydata/turismo-alojamiento.git
 [submodule "urbanismo-infraestructuras-callejero"]
 	path = urbanismo-infraestructuras-callejero
-	url = https://github.com/ma-garcia/urbanismo-infraestructuras-callejero.git
+	url = https://github.com/opencitydata/urbanismo-infraestructuras-callejero.git
